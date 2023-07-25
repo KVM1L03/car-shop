@@ -1,0 +1,141 @@
+
+.car-details-container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.model-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.car-details-panel {
+  flex: 0 0 33%;
+  background-color: #f8f8ff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.44);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.car-details-panel.show {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.car-details-panel h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.car-details-panel p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.show-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #212121;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 20px;
+  
+}
+
+.show-button:hover {
+  text-decoration: underline;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.buy-button {
+  align-self: center;
+  cursor: pointer;
+  display: flex; 
+  align-items: center;
+  
+}
+
+.buy-button img {
+  margin-right: 10px; 
+}
+
+.car-image2 {
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+
+.car-description {
+  flex: 1;
+  max-width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  font-family: oswald-regular;
+}
+
+.h1{
+  text-align: center;
+  font-family: tektur;
+  margin-top: 100px;
+ 
+}
+
+.car-info{
+  font-family: oswald-regular;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+@font-face {
+  font-family: tektur;
+  src: url(/public/Fonts/Tektur-Bold.ttf);
+}
+
+@font-face {
+  font-family: tektur-regular;
+  src: url(/public/Fonts/Tektur-Regular.ttf);
+}
+
+@font-face {
+  font-family: oswald-regular;
+  src: url(/public/Fonts/Oswald-Regular.ttf);
+}
+
+
