@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/car-shop/static/css/main.af32d3a8.css",
+    "main.js": "/car-shop/static/js/main.71232a67.js",
+    "static/js/787.d01e72d2.chunk.js": "/car-shop/static/js/787.d01e72d2.chunk.js",
+    "static/media/Roboto-Bold.ttf": "/car-shop/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/Tektur-Bold.ttf": "/car-shop/static/media/Tektur-Bold.3ed9bb3ef4053cdf8ac9.ttf",
+    "static/media/Tektur-Regular.ttf": "/car-shop/static/media/Tektur-Regular.196c5d0a6d6aff42a52d.ttf",
+    "static/media/Oswald-Regular.ttf": "/car-shop/static/media/Oswald-Regular.e815068d369177121fd8.ttf",
+    "index.html": "/car-shop/index.html",
+    "main.af32d3a8.css.map": "/car-shop/static/css/main.af32d3a8.css.map",
+    "main.71232a67.js.map": "/car-shop/static/js/main.71232a67.js.map",
+    "787.d01e72d2.chunk.js.map": "/car-shop/static/js/787.d01e72d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af32d3a8.css",
+    "static/js/main.71232a67.js"
+  ]
+}
